@@ -1,0 +1,39 @@
+[versions]
+agp = "8.3.0"
+kotlin = "1.9.20"
+coreKtx = "1.12.0"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+material = "1.11.0"
+activity = "1.8.2"
+constraintlayout = "2.1.4"
+firebase_core = "21.1.1"
+firebase = "23.4.1"
+firebase_iid = "21.1.0"
+work_runtime = "1.0.1"
+lifecycle_ext = "2.2.0"
+lifecycle = "2.7.0"
+
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+firebase-core = { group = "com.google.firebase", name = "firebase-core", version.ref = "firebase_core" }
+firebase-iid = { group = "com.google.firebase", name = "firebase-iid", version.ref = "firebase_iid" }
+firebase-messaging = { group = "com.google.firebase", name = "firebase-messaging", version.ref = "firebase" }
+lifecycle-extensions = { group = "androidx.lifecycle", name = "lifecycle-extensions", version.ref = "lifecycle_ext" }
+lifecycle-viewmodel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
+
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
